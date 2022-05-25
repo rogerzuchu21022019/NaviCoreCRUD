@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		956DA2432836299800A6396E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA2422836299800A6396E /* AppDelegate.swift */; };
 		956DA2452836299800A6396E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA2442836299800A6396E /* SceneDelegate.swift */; };
-		956DA2472836299800A6396E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA2462836299800A6396E /* ViewController.swift */; };
+		956DA2472836299800A6396E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA2462836299800A6396E /* HomeVC.swift */; };
 		956DA24A2836299800A6396E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956DA2482836299800A6396E /* Main.storyboard */; };
 		956DA24D2836299800A6396E /* NaviCoreCRUD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956DA24B2836299800A6396E /* NaviCoreCRUD.xcdatamodeld */; };
 		956DA24F2836299A00A6396E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956DA24E2836299A00A6396E /* Assets.xcassets */; };
 		956DA2522836299A00A6396E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956DA2502836299A00A6396E /* LaunchScreen.storyboard */; };
+		956DA25A28362F9100A6396E /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA25928362F9100A6396E /* SignInVC.swift */; };
+		956DA25C28362FBB00A6396E /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA25B28362FBB00A6396E /* ListVC.swift */; };
+		956DA25E283639F200A6396E /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA25D283639F200A6396E /* UserClass.swift */; };
+		956DA2602836480E00A6396E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956DA25F2836480E00A6396E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		956DA23F2836299800A6396E /* NaviCoreCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviCoreCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956DA2422836299800A6396E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		956DA2442836299800A6396E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		956DA2462836299800A6396E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		956DA2462836299800A6396E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		956DA2492836299800A6396E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		956DA24C2836299800A6396E /* NaviCoreCRUD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaviCoreCRUD.xcdatamodel; sourceTree = "<group>"; };
 		956DA24E2836299A00A6396E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956DA2512836299A00A6396E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956DA2532836299A00A6396E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956DA25928362F9100A6396E /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		956DA25B28362FBB00A6396E /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		956DA25D283639F200A6396E /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		956DA25F2836480E00A6396E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				956DA2422836299800A6396E /* AppDelegate.swift */,
 				956DA2442836299800A6396E /* SceneDelegate.swift */,
-				956DA2462836299800A6396E /* ViewController.swift */,
+				956DA2462836299800A6396E /* HomeVC.swift */,
 				956DA2482836299800A6396E /* Main.storyboard */,
 				956DA24E2836299A00A6396E /* Assets.xcassets */,
 				956DA2502836299A00A6396E /* LaunchScreen.storyboard */,
 				956DA2532836299A00A6396E /* Info.plist */,
 				956DA24B2836299800A6396E /* NaviCoreCRUD.xcdatamodeld */,
+				956DA25928362F9100A6396E /* SignInVC.swift */,
+				956DA25B28362FBB00A6396E /* ListVC.swift */,
+				956DA25D283639F200A6396E /* UserClass.swift */,
+				956DA25F2836480E00A6396E /* TableViewCell.swift */,
 			);
 			path = NaviCoreCRUD;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956DA2472836299800A6396E /* ViewController.swift in Sources */,
+				956DA2472836299800A6396E /* HomeVC.swift in Sources */,
+				956DA2602836480E00A6396E /* TableViewCell.swift in Sources */,
 				956DA2432836299800A6396E /* AppDelegate.swift in Sources */,
 				956DA24D2836299800A6396E /* NaviCoreCRUD.xcdatamodeld in Sources */,
 				956DA2452836299800A6396E /* SceneDelegate.swift in Sources */,
+				956DA25C28362FBB00A6396E /* ListVC.swift in Sources */,
+				956DA25A28362F9100A6396E /* SignInVC.swift in Sources */,
+				956DA25E283639F200A6396E /* UserClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
